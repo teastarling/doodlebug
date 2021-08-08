@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/teastarling/doodlebug/issues"
   },
-  "homepage": "https://github.com/teastarling/doodlebug#readme"
+  "homepage": "https://github.com/teastarling/doodlebug#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "p5": "^1.4.0",
+    "socket.io": "^4.1.3"
+  }
 }
