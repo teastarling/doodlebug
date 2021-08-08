@@ -9,7 +9,7 @@ function setup() {
 	cv.background(0)
 
 	// Start the socket connection
-	socket = io.connect('http://localhost:3001')
+	socket = io.connect('http://localhost:3000')
 
 	socket.on('mouse', data => {
 		stroke(data.color)
