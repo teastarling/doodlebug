@@ -9,7 +9,7 @@ function setup() {
 	cv.background(0)
 
 	// Start the socket connection
-	socket = io.connect('http://localhost:3000')
+	socket = io.connect('https://infinite-harbor-17463.herokuapp.com/')
 
 	socket.on('mouse', data => {
 		stroke(data.color)
