@@ -2,9 +2,10 @@
   "name": "doodlebug",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,5 @@
   "bugs": {
     "url": "https://github.com/teastarling/doodlebug/issues"
   },
-  "homepage": "https://github.com/teastarling/doodlebug#readme",
-  "dependencies": {
-    "node-static": "^0.7.11",
-    "socket.io": "^0.9.10"
-  }
+  "homepage": "https://github.com/teastarling/doodlebug#readme"
 }
